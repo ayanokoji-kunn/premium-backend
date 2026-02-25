@@ -41,4 +41,4 @@ router.put('/verify/:id', async (req, res) => {
   }
 });
 
-module.exports = router;s
+module.exports = router;
