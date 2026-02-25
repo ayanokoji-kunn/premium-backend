@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Subscription = require('./models/Subscription'); // make sure filename matches
+const Subscription = require('./models/subscription'); // make sure filename matches
 
 router.post('/', async (req, res) => {
   try {
